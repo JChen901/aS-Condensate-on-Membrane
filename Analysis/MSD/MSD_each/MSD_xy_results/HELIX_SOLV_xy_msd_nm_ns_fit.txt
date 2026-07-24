@@ -1,0 +1,8 @@
+dataset=HELIX_SOLV
+title=$\text{Hel}_{50}$
+n_chains=133
+fit_start_ns=10.0
+fit_end_ns=100.0
+alpha=0.8819801
+K_nm2_per_ns_alpha=0.036823238
+r_value=0.9999864

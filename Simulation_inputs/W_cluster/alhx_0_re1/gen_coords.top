@@ -1,0 +1,9 @@
+#include "toppar/martini_v3.0.0.itp"
+#include "toppar/1xq8_cg.itp"
+[ system ]
+; name
+Melt of 1xq8 50
+
+[ molecules ]
+; name  number
+Protein 50

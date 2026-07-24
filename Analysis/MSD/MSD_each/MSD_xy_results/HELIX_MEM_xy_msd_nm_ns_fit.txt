@@ -1,0 +1,8 @@
+dataset=HELIX_MEM
+title=$\text{Hel}_{10}\text{IDP}_{40}$-Mem
+n_chains=95
+fit_start_ns=10.0
+fit_end_ns=100.0
+alpha=0.64777911
+K_nm2_per_ns_alpha=0.10299561
+r_value=0.99987704

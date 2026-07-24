@@ -1,0 +1,26 @@
+#include "toppar/martini_v3.0.0.itp"
+#include "toppar/1xq8_cg.itp"
+#include "toppar/martini_v3.0.0_ions_v1.itp"
+#include "toppar/martini_v3.0.0_nucleobases_v1.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1_matthieu.itp"
+#include "toppar/martini_v3.0.0_small_molecules_v1.itp"
+#include "toppar/martini_v3.0.0_solvents_v1.itp"
+#include "toppar/martini_v3.0.0_sugars_v1.itp"
+#include "toppar/martini_v3.0_sterols_v1.0.itp"
+#include "toppar/PI45P2_unsat.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>POPC:POPG=7.0:3.0 LowerLeaflet>POPC:POPG=7.0:3.0
+
+[ molecules ]
+; name  number
+Protein        1
+POPC           473
+POPG           202
+POPC           473
+POPG           202
+W            34007
+NA            581
+CL            168

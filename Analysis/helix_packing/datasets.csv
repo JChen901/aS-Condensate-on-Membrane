@@ -1,0 +1,7 @@
+dataset,replicate,structure,trajectory
+IDP50,rep1,W_cluster/alhx_0/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_0/TR_Mdvwhole/clus_centered.xtc
+IDP50,rep2,W_cluster/alhx_0_re1/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_0_re1/TR_Mdvwhole/clus_centered.xtc
+IDP50,rep3,W_cluster/alhx_0_re2/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_0_re2/TR_Mdvwhole/clus_centered.xtc
+Hel50,rep1,W_cluster/alhx_700/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_700/TR_Mdvwhole/clus_centered.xtc
+Hel50,rep2,W_cluster/alhx_700_re1/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_700_re1/TR_Mdvwhole/clus_centered.xtc
+Hel50,rep3,W_cluster/alhx_700_re2/TR_Mdvwhole/pbc.tpr,W_cluster/alhx_700_re2/TR_Mdvwhole/clus_centered.xtc

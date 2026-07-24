@@ -1,0 +1,506 @@
+[
+  {
+    "system": "$\\text{IDP}_{50}$",
+    "topology": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0/TR_Mdvwhole/pbc.tpr",
+    "trajectory_for_probe": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0/TR_Mdvwhole/clus_centered.xtc",
+    "expected_chains": 50,
+    "protein_atoms": 14750,
+    "protein_residues": 7000,
+    "protein_segments": 1,
+    "residue_id_unique_count": 7000,
+    "residue_id_min": 1,
+    "residue_id_max": 7000,
+    "residue_id_first": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "residue_id_last": [
+      6991,
+      6992,
+      6993,
+      6994,
+      6995,
+      6996,
+      6997,
+      6998,
+      6999,
+      7000
+    ],
+    "residue_names_preview": [
+      "MET",
+      "ASP",
+      "VAL",
+      "PHE",
+      "MET",
+      "LYS",
+      "GLY",
+      "LEU",
+      "SER",
+      "LYS"
+    ],
+    "expected_residues_per_chain": 140,
+    "expected_chunk_atom_count_min": 295,
+    "expected_chunk_atom_count_median": 295.0,
+    "expected_chunk_atom_count_max": 295,
+    "candidate_counts": [
+      {
+        "method": "segments",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "MDAnalysis protein AtomGroup segments"
+      },
+      {
+        "method": "atoms.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "atoms.chainIDs",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['Insanely solvated protein.']"
+      },
+      {
+        "method": "atoms.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "residues.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "residues.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "bonded fragments",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": true,
+        "detail": "min/median/max=295/295/295"
+      },
+      {
+        "method": "repeated residue-id sets",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": false,
+        "detail": "unique residue IDs=7000"
+      },
+      {
+        "method": "expected 50-chain residue chunks",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": false,
+        "detail": "140 residues/chain by equal partition; atom counts min/median/max=295/295/295"
+      }
+    ],
+    "direct_methods_matching_expected": [
+      "bonded fragments"
+    ],
+    "inferred_methods_matching_expected": [
+      "expected 50-chain residue chunks"
+    ],
+    "has_direct_expected_match": true,
+    "has_any_expected_match": true,
+    "notes": []
+  },
+  {
+    "system": "$\\text{Hel}_{50}$",
+    "topology": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700/TR_Mdvwhole/pbc.tpr",
+    "trajectory_for_probe": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700/TR_Mdvwhole/clus_centered.xtc",
+    "expected_chains": 50,
+    "protein_atoms": 14750,
+    "protein_residues": 7000,
+    "protein_segments": 1,
+    "residue_id_unique_count": 7000,
+    "residue_id_min": 1,
+    "residue_id_max": 7000,
+    "residue_id_first": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "residue_id_last": [
+      6991,
+      6992,
+      6993,
+      6994,
+      6995,
+      6996,
+      6997,
+      6998,
+      6999,
+      7000
+    ],
+    "residue_names_preview": [
+      "MET",
+      "ASP",
+      "VAL",
+      "PHE",
+      "MET",
+      "LYS",
+      "GLY",
+      "LEU",
+      "SER",
+      "LYS"
+    ],
+    "expected_residues_per_chain": 140,
+    "expected_chunk_atom_count_min": 295,
+    "expected_chunk_atom_count_median": 295.0,
+    "expected_chunk_atom_count_max": 295,
+    "candidate_counts": [
+      {
+        "method": "segments",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "MDAnalysis protein AtomGroup segments"
+      },
+      {
+        "method": "atoms.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "atoms.chainIDs",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['Insanely solvated protein.']"
+      },
+      {
+        "method": "atoms.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "residues.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "residues.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "bonded fragments",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": true,
+        "detail": "min/median/max=295/295/295"
+      },
+      {
+        "method": "repeated residue-id sets",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": false,
+        "detail": "unique residue IDs=7000"
+      },
+      {
+        "method": "expected 50-chain residue chunks",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": false,
+        "detail": "140 residues/chain by equal partition; atom counts min/median/max=295/295/295"
+      }
+    ],
+    "direct_methods_matching_expected": [
+      "bonded fragments"
+    ],
+    "inferred_methods_matching_expected": [
+      "expected 50-chain residue chunks"
+    ],
+    "has_direct_expected_match": true,
+    "has_any_expected_match": true,
+    "notes": []
+  },
+  {
+    "system": "$\\text{IDP}_{50}$-Mem",
+    "topology": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_0_plus1/TR_Mdvwhole/pbc.tpr",
+    "trajectory_for_probe": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_0_plus1/TR_Mdvwhole/clus_centered.xtc",
+    "expected_chains": 50,
+    "protein_atoms": 14750,
+    "protein_residues": 7000,
+    "protein_segments": 1,
+    "residue_id_unique_count": 7000,
+    "residue_id_min": 1,
+    "residue_id_max": 7000,
+    "residue_id_first": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "residue_id_last": [
+      6991,
+      6992,
+      6993,
+      6994,
+      6995,
+      6996,
+      6997,
+      6998,
+      6999,
+      7000
+    ],
+    "residue_names_preview": [
+      "MET",
+      "ASP",
+      "VAL",
+      "PHE",
+      "MET",
+      "LYS",
+      "GLY",
+      "LEU",
+      "SER",
+      "LYS"
+    ],
+    "expected_residues_per_chain": 140,
+    "expected_chunk_atom_count_min": 295,
+    "expected_chunk_atom_count_median": 295.0,
+    "expected_chunk_atom_count_max": 295,
+    "candidate_counts": [
+      {
+        "method": "segments",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "MDAnalysis protein AtomGroup segments"
+      },
+      {
+        "method": "atoms.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "atoms.chainIDs",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['Insanely solvated protein.']"
+      },
+      {
+        "method": "atoms.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "residues.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "residues.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "bonded fragments",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": true,
+        "detail": "min/median/max=295/295/295"
+      },
+      {
+        "method": "repeated residue-id sets",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": false,
+        "detail": "unique residue IDs=7000"
+      },
+      {
+        "method": "expected 50-chain residue chunks",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": false,
+        "detail": "140 residues/chain by equal partition; atom counts min/median/max=295/295/295"
+      }
+    ],
+    "direct_methods_matching_expected": [
+      "bonded fragments"
+    ],
+    "inferred_methods_matching_expected": [
+      "expected 50-chain residue chunks"
+    ],
+    "has_direct_expected_match": true,
+    "has_any_expected_match": true,
+    "notes": []
+  },
+  {
+    "system": "$\\text{Hel}_{10}\\text{IDP}_{40}$-Mem",
+    "topology": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_700_WALL1/TR_Mdvwhole/pbc.tpr",
+    "trajectory_for_probe": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_700_WALL1/TR_Mdvwhole/clus_centered.xtc",
+    "expected_chains": 50,
+    "protein_atoms": 14750,
+    "protein_residues": 7000,
+    "protein_segments": 1,
+    "residue_id_unique_count": 7000,
+    "residue_id_min": 1,
+    "residue_id_max": 7000,
+    "residue_id_first": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "residue_id_last": [
+      6991,
+      6992,
+      6993,
+      6994,
+      6995,
+      6996,
+      6997,
+      6998,
+      6999,
+      7000
+    ],
+    "residue_names_preview": [
+      "MET",
+      "ASP",
+      "VAL",
+      "PHE",
+      "MET",
+      "LYS",
+      "GLY",
+      "LEU",
+      "SER",
+      "LYS"
+    ],
+    "expected_residues_per_chain": 140,
+    "expected_chunk_atom_count_min": 295,
+    "expected_chunk_atom_count_median": 295.0,
+    "expected_chunk_atom_count_max": 295,
+    "candidate_counts": [
+      {
+        "method": "segments",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "MDAnalysis protein AtomGroup segments"
+      },
+      {
+        "method": "atoms.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "atoms.chainIDs",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['Insanely solvated protein.']"
+      },
+      {
+        "method": "atoms.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "residues.molnums",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['0']"
+      },
+      {
+        "method": "residues.segids",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": true,
+        "detail": "unique values preview=['seg_0_Insanely solvated protein.']"
+      },
+      {
+        "method": "bonded fragments",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": true,
+        "detail": "min/median/max=295/295/295"
+      },
+      {
+        "method": "repeated residue-id sets",
+        "count": 1,
+        "matches_expected": false,
+        "direct_chain_evidence": false,
+        "detail": "unique residue IDs=7000"
+      },
+      {
+        "method": "expected 50-chain residue chunks",
+        "count": 50,
+        "matches_expected": true,
+        "direct_chain_evidence": false,
+        "detail": "140 residues/chain by equal partition; atom counts min/median/max=295/295/295"
+      }
+    ],
+    "direct_methods_matching_expected": [
+      "bonded fragments"
+    ],
+    "inferred_methods_matching_expected": [
+      "expected 50-chain residue chunks"
+    ],
+    "has_direct_expected_match": true,
+    "has_any_expected_match": true,
+    "notes": []
+  }
+]

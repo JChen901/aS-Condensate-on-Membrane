@@ -1,0 +1,7 @@
+TITLE     Insanely solvated protein.
+REMARK    THIS IS A SIMULATION BOX
+CRYST1  484.200  484.200  540.000  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1  W     W  8077     322.150  31.010 186.580  1.00  0.00            
+TER
+ENDMDL

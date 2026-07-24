@@ -1,0 +1,131 @@
+{
+  "analysis": "NAC helix packing, band8 only",
+  "nac_residues": [
+    61,
+    95
+  ],
+  "atoms_per_chain": 140,
+  "cluster_cutoff_A": 8.0,
+  "nac_contact_cutoff_A": 8.0,
+  "contact_d0_A": 8.0,
+  "beta_per_A": 1.0,
+  "anti_diagonal_bandwidth_residues": 8,
+  "band_comparison": "<",
+  "anti_diagonal_band_expression": "|r_i + r_j - 156| < 8",
+  "parallel_band_expression": "|r_i - r_j| < 8",
+  "axis": "signed PCA axis, oriented N-to-C using four terminal NAC beads",
+  "alignment_threshold_abs_cos": 0.5,
+  "cos_histogram_edges": [
+    -1.0,
+    -0.95,
+    -0.9,
+    -0.85,
+    -0.8,
+    -0.75,
+    -0.7,
+    -0.6499999999999999,
+    -0.6,
+    -0.55,
+    -0.5,
+    -0.44999999999999996,
+    -0.3999999999999999,
+    -0.35,
+    -0.29999999999999993,
+    -0.25,
+    -0.19999999999999996,
+    -0.1499999999999999,
+    -0.09999999999999998,
+    -0.04999999999999993,
+    0.0,
+    0.050000000000000044,
+    0.10000000000000009,
+    0.15000000000000013,
+    0.20000000000000018,
+    0.25,
+    0.30000000000000004,
+    0.3500000000000001,
+    0.40000000000000013,
+    0.4500000000000002,
+    0.5,
+    0.55,
+    0.6000000000000001,
+    0.6500000000000001,
+    0.7000000000000002,
+    0.75,
+    0.8,
+    0.8500000000000001,
+    0.9000000000000001,
+    0.9500000000000002,
+    1.0
+  ],
+  "cluster_size_bins": [
+    [
+      2,
+      5,
+      "2-5"
+    ],
+    [
+      6,
+      10,
+      "6-10"
+    ],
+    [
+      11,
+      20,
+      "11-20"
+    ],
+    [
+      21,
+      35,
+      "21-35"
+    ],
+    [
+      36,
+      50,
+      "36-50"
+    ]
+  ],
+  "frame_start": 0,
+  "frame_stop": null,
+  "frame_stride": 10,
+  "MDAnalysis_version": "2.7.0",
+  "numpy_version": "1.26.4",
+  "trajectories": [
+    {
+      "dataset": "IDP50",
+      "replicate": "rep1",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0/TR_Mdvwhole/clus_centered.xtc"
+    },
+    {
+      "dataset": "IDP50",
+      "replicate": "rep2",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0_re1/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0_re1/TR_Mdvwhole/clus_centered.xtc"
+    },
+    {
+      "dataset": "IDP50",
+      "replicate": "rep3",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0_re2/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_0_re2/TR_Mdvwhole/clus_centered.xtc"
+    },
+    {
+      "dataset": "Hel50",
+      "replicate": "rep1",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700/TR_Mdvwhole/clus_centered.xtc"
+    },
+    {
+      "dataset": "Hel50",
+      "replicate": "rep2",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700_re1/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700_re1/TR_Mdvwhole/clus_centered.xtc"
+    },
+    {
+      "dataset": "Hel50",
+      "replicate": "rep3",
+      "structure": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700_re2/TR_Mdvwhole/pbc.tpr",
+      "trajectory": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_700_re2/TR_Mdvwhole/clus_centered.xtc"
+    }
+  ]
+}

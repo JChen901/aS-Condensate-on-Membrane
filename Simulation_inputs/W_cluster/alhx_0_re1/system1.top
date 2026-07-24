@@ -1,0 +1,12 @@
+#include "martini.itp"
+
+[ system ]
+; name
+Insanely solvated protein.
+
+[ molecules ]
+; name  number
+Protein        1
+W           864543
+NA+           9743
+CL-           9293

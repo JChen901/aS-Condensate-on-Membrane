@@ -1,0 +1,22 @@
+#include "toppar/martini_v3.0.0.itp"
+#include "toppar/1xq8_cg.itp"
+#include "toppar/martini_v3.0.0_ions_v1.itp"
+#include "toppar/martini_v3.0.0_nucleobases_v1.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1.itp"
+#include "toppar/martini_v3.0.0_phospholipids_v1_matthieu.itp"
+#include "toppar/martini_v3.0.0_small_molecules_v1.itp"
+#include "toppar/martini_v3.0.0_solvents_v1.itp"
+#include "toppar/martini_v3.0.0_sugars_v1.itp"
+#include "toppar/martini_v3.0_sterols_v1.0.itp"
+#include "toppar/PI45P2_unsat.itp"
+
+[ system ]
+; name
+Insanely solvated protein.
+
+[ molecules ]
+; name  number
+Protein        50
+W           865400
+NA           9752
+CL           9302

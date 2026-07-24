@@ -1,0 +1,8 @@
+dataset=IDP_MEM
+title=$\text{IDP}_{50}$-Mem
+n_chains=131
+fit_start_ns=10.0
+fit_end_ns=100.0
+alpha=0.77379727
+K_nm2_per_ns_alpha=0.065171336
+r_value=0.99989031
