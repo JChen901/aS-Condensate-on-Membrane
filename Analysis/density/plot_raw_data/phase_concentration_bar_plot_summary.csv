@@ -1,9 +1,9 @@
 phase,group,plot_label,mean_concentration_mg_ml,sd_concentration_mg_ml,n
-dense,$\text{IDP}_{50}$,$\mathrm{IDP}_{50}$,530.8336916919726,21.984287127784974,3
-dense,$\text{Hel}_{50}$,$\mathrm{Hel}_{50}$,619.4118838700055,4.946227881067339,3
-dense,$\text{IDP}_{50}$-Mem,$\mathrm{IDP}_{50}$-Mem,509.85876089316065,22.430389475762535,3
+dense,$\text{IDP}_{50}$,$\mathrm{IDP}_{50}$,529.8983808085767,21.122406536886444,3
+dense,$\text{Hel}_{50}$,$\mathrm{Hel}_{50}$,619.6921002177784,3.837338699729171,3
+dense,$\text{IDP}_{50}$-Mem,$\mathrm{IDP}_{50}$-Mem,509.98422564282254,22.1683055264199,3
 dense,$\text{Hel}_{10}\text{IDP}_{40}$-Mem,$\mathrm{Hel}_{10}\mathrm{IDP}_{40}$-Mem,552.6634698699194,31.722380997516765,3
-dilute,$\text{IDP}_{50}$,$\mathrm{IDP}_{50}$,0.07121779474475935,0.06226677057851743,3
-dilute,$\text{Hel}_{50}$,$\mathrm{Hel}_{50}$,0.22092888609389227,0.08974616333960499,3
-dilute,$\text{IDP}_{50}$-Mem,$\mathrm{IDP}_{50}$-Mem,0.3948255710261715,0.10321001325946684,3
-dilute,$\text{Hel}_{10}\text{IDP}_{40}$-Mem,$\mathrm{Hel}_{10}\mathrm{IDP}_{40}$-Mem,1.3469380530848518,0.7704758617026731,3
+dilute,$\text{IDP}_{50}$,$\mathrm{IDP}_{50}$,0.06761442672443516,0.06699686306424305,3
+dilute,$\text{Hel}_{50}$,$\mathrm{Hel}_{50}$,0.21248545513845238,0.09402487958929791,3
+dilute,$\text{IDP}_{50}$-Mem,$\mathrm{IDP}_{50}$-Mem,0.3576966795896818,0.08686661781428627,3
+dilute,$\text{Hel}_{10}\text{IDP}_{40}$-Mem,$\mathrm{Hel}_{10}\mathrm{IDP}_{40}$-Mem,1.2565137927594363,0.8495527406470142,3
