@@ -1,0 +1,62 @@
+# This file was created Mon Sep  7 22:01:46 2026
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.3 (-:
+# 
+# Executable:   /usr/local/gromacs-plumed/bin/gmx
+# Data prefix:  /usr/local/gromacs-plumed
+# Working dir:  /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP
+# Command line:
+#   gmx rmsf -s /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_800/step5_production.tpr -f /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_800/traj_pbc.xtc -n /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_800_tail_BB.ndx -o /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_800_tail_rmsf.xvg -b 1500000 -e 3000000 -dt 1000 -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+   96   1.7017
+   97   1.5421
+   98   1.3915
+   99   1.2674
+  100   1.2003
+  101   1.1543
+  102   1.0854
+  103   1.0174
+  104   0.9870
+  105   0.9945
+  106   1.0141
+  107   0.9889
+  108   0.9291
+  109   0.8817
+  110   0.8659
+  111   0.8748
+  112   0.8430
+  113   0.7710
+  114   0.7349
+  115   0.7568
+  116   0.7798
+  117   0.8198
+  118   0.8781
+  119   0.9071
+  120   0.9571
+  121   1.0192
+  122   1.0224
+  123   1.0383
+  124   1.0508
+  125   1.0131
+  126   0.9917
+  127   0.9645
+  128   0.9143
+  129   0.9037
+  130   0.8871
+  131   0.9163
+  132   0.9816
+  133   1.0341
+  134   1.0790
+  135   1.1695
+  136   1.3273
+  137   1.4896
+  138   1.6794
+  139   1.8621
+  140   2.0608

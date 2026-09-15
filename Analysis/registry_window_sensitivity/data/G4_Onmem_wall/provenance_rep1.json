@@ -1,0 +1,17 @@
+{
+  "definition": "chain belongs to largest cluster at every analysed frame",
+  "membership_cache": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/NAC_contact_survival/Hel_IDP_pair_comparison/instantaneous_largest_cluster/main_analysis/data/G4_Onmem_wall/largest_cluster_membership_rep1.npz",
+  "membership_cache_sha256": "3181f8b15360a34bd12c884565c3d0c0e30a6dfcb693a68b0487f7660f49d8e2",
+  "membership_metadata": {},
+  "trajectory": {
+    "tpr": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_700_WALL1/TR_Mdvwhole/pbc.tpr",
+    "xtc": "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Onmem/muti_chain/POPC7-POPG3/alhx_700_WALL1/TR_Mdvwhole/clus_centered.xtc",
+    "start": 10000
+  },
+  "windows": [
+    4,
+    6,
+    8,
+    10
+  ]
+}

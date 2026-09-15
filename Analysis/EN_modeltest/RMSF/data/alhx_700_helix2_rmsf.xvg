@@ -1,0 +1,68 @@
+# This file was created Mon Sep  7 22:01:24 2026
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.3 (-:
+# 
+# Executable:   /usr/local/gromacs-plumed/bin/gmx
+# Data prefix:  /usr/local/gromacs-plumed
+# Working dir:  /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP
+# Command line:
+#   gmx rmsf -s /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_700/step5_production.tpr -f /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_700/tj_pbc.xtc -n /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_700_helix2_BB.ndx -o /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_700_helix2_rmsf.xvg -b 1500000 -e 3000000 -dt 1000 -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+   45   0.2877
+   46   0.2479
+   47   0.2361
+   48   0.2187
+   49   0.1812
+   50   0.1557
+   51   0.1538
+   52   0.1429
+   53   0.1287
+   54   0.1173
+   55   0.1100
+   56   0.1193
+   57   0.1309
+   58   0.1136
+   59   0.1159
+   60   0.1394
+   61   0.1454
+   62   0.1384
+   63   0.1461
+   64   0.1608
+   65   0.1639
+   66   0.1651
+   67   0.1657
+   68   0.1619
+   69   0.1728
+   70   0.1786
+   71   0.1633
+   72   0.1587
+   73   0.1686
+   74   0.1700
+   75   0.1558
+   76   0.1455
+   77   0.1542
+   78   0.1568
+   79   0.1370
+   80   0.1278
+   81   0.1412
+   82   0.1258
+   83   0.1153
+   84   0.1301
+   85   0.1211
+   86   0.1043
+   87   0.1407
+   88   0.1632
+   89   0.1426
+   90   0.1590
+   91   0.2125
+   92   0.2275
+   93   0.2134
+   94   0.2798
+   95   0.4105
