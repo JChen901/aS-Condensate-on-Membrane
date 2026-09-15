@@ -1,0 +1,14 @@
+{
+  "n_tests": 72,
+  "tests_per_definition": 18,
+  "definitions": [
+    "strict_sym",
+    "strict_anti",
+    "banded_sym",
+    "banded_anti"
+  ],
+  "contact": "three",
+  "n_significant_global_BH_q_0_05": 40,
+  "input_files": 12,
+  "input_files_unchanged": true
+}

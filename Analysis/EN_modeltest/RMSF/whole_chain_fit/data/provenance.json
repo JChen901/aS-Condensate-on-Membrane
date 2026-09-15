@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    700,
+    800,
+    1000
+  ],
+  "start_ps": 1500000,
+  "end_ps": 3000000,
+  "dt_ps": 1000,
+  "expected_frames": 1501,
+  "selection": "name BB",
+  "mdanalysis_version": "2.9.0",
+  "numpy_version": "2.2.3",
+  "inputs": {
+    "Monomer/alhx_700/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1760704703133743023
+    },
+    "Monomer/alhx_700/tj_pbc.xtc": {
+      "bytes": 2914241952,
+      "mtime_ns": 1761014398023183971
+    },
+    "Monomer/alhx_800/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1788788928540670914
+    },
+    "Monomer/alhx_800/traj_pbc.xtc": {
+      "bytes": 874647104,
+      "mtime_ns": 1788787940320776909
+    },
+    "Monomer/alhx_1000/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1788789038986930456
+    },
+    "Monomer/alhx_1000/traj_pbc.xtc": {
+      "bytes": 874842088,
+      "mtime_ns": 1788787964333246871
+    }
+  },
+  "method": "GROMACS rmsf -res -fit; all 140 BB beads fitted to each run TPR reference; fluctuations about fitted trajectory mean"
+}

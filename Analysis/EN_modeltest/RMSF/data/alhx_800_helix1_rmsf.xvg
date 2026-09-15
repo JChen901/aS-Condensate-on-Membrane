@@ -1,0 +1,54 @@
+# This file was created Mon Sep  7 22:01:33 2026
+# Created by:
+#                :-) GROMACS - gmx rmsf, 2022.5-plumed_2.8.3 (-:
+# 
+# Executable:   /usr/local/gromacs-plumed/bin/gmx
+# Data prefix:  /usr/local/gromacs-plumed
+# Working dir:  /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP
+# Command line:
+#   gmx rmsf -s /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_800/step5_production.tpr -f /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_800/traj_pbc.xtc -n /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_800_helix1_BB.ndx -o /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/data/alhx_800_helix1_rmsf.xvg -b 1500000 -e 3000000 -dt 1000 -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.3031
+    2   0.2139
+    3   0.1279
+    4   0.1083
+    5   0.1081
+    6   0.0835
+    7   0.0760
+    8   0.0869
+    9   0.0711
+   10   0.0853
+   11   0.1166
+   12   0.1051
+   13   0.0894
+   14   0.1301
+   15   0.1446
+   16   0.1078
+   17   0.1076
+   18   0.1459
+   19   0.1352
+   20   0.0950
+   21   0.1177
+   22   0.1471
+   23   0.1193
+   24   0.0808
+   25   0.1054
+   26   0.1133
+   27   0.0835
+   28   0.0712
+   29   0.0786
+   30   0.0755
+   31   0.0959
+   32   0.0998
+   33   0.0814
+   34   0.1259
+   35   0.1784
+   36   0.1737
+   37   0.1863

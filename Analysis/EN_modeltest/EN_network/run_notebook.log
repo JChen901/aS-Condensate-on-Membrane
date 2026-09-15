@@ -1,0 +1,23 @@
+Using font: Arial
+/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/citation_parser.py:143: SyntaxWarning: invalid escape sequence '\}'
+  for field, value in re.findall("(.*?)=(.*?)\}", entry_string):
+/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/dssp/dssp.py:285: SyntaxWarning: invalid escape sequence '\d'
+  match = re.search('\d+\.\d+\.\d+', process.stdout.decode('UTF8'))
+vermouth: 0.13.1.dev149 bond type: 1 residue graph exclusion: 2
+Matched 295 beads, 140 BB residues; ITP Rubber band: 227 bonds
+{
+  "reference_cutoff_nm": 0.85,
+  "itp_count": 227,
+  "rebuilt_count": 227,
+  "missing_pairs": [],
+  "extra_pairs": [],
+  "max_equilibrium_length_error_nm": 9.999999999998899e-05,
+  "pair_identity_passed": true
+}
+ cutoff_nm  total_bonds  min  max     mean  median  percent_le5  fraction_ge10
+      0.80          179    3    5 3.558659     4.0   100.000000            0.0
+      0.85          227    3    5 3.841410     4.0   100.000000            0.0
+      0.90          255    3    6 3.956863     4.0    99.607843            0.0
+Full percentiles, bins, tail thresholds and top-20 pairs are saved in data/.
+Validation passed. One combined figure and analysis tables saved.
+Executed 7 cells successfully: /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/EN_network/EN_modeltest.ipynb

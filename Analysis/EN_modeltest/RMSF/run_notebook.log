@@ -1,0 +1,31 @@
+condition
+alhx_700     140
+alhx_800     140
+alhx_1000    140
+condition segment  count     mean    min    max
+ alhx_700  helix1     37 0.121835 0.0718 0.3097
+ alhx_700  linker      7 0.102371 0.0607 0.1619
+ alhx_700  helix2     51 0.165147 0.1043 0.4105
+ alhx_700    tail     45 1.076124 0.7470 1.9112
+ alhx_800  helix1     37 0.118249 0.0711 0.3031
+ alhx_800  linker      7 0.093843 0.0526 0.1523
+ alhx_800  helix2     51 0.167188 0.1046 0.4253
+ alhx_800    tail     45 1.083300 0.7349 2.0608
+alhx_1000  helix1     37 0.113557 0.0664 0.2909
+alhx_1000  linker      7 0.095271 0.0503 0.1535
+alhx_1000  helix2     51 0.158324 0.1005 0.3929
+alhx_1000    tail     45 1.116893 0.7545 1.9993
+condition segment  segment_fit_mean_nm  whole_fit_mean_nm
+ alhx_700  helix1             0.121835           2.199019
+ alhx_700  linker             0.102371           1.628971
+ alhx_700  helix2             0.165147           1.462812
+ alhx_700    tail             1.076124           2.382120
+ alhx_800  helix1             0.118249           1.946284
+ alhx_800  linker             0.093843           1.385157
+ alhx_800  helix2             0.167188           1.421075
+ alhx_800    tail             1.083300           2.519336
+alhx_1000  helix1             0.113557           1.860230
+alhx_1000  linker             0.095271           1.484029
+alhx_1000  helix2             0.158324           1.413145
+alhx_1000    tail             1.116893           2.578531
+Executed 3 cells successfully: /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Analysis/EN_modeltest/RMSF/RMSF.ipynb

@@ -1,0 +1,47 @@
+{
+  "python": "3.12.7 | packaged by conda-forge | (main, Oct  4 2024, 16:05:46) [GCC 13.3.0]",
+  "vermouth_version": "0.12.0",
+  "numpy_version": "1.26.4",
+  "forcefield": "martini3IDP",
+  "region": [
+    1,
+    95
+  ],
+  "force_constant": 700.0,
+  "lower_bound": 0,
+  "decay_factor": 0,
+  "decay_power": 1,
+  "minimum_force": 0,
+  "bond_type": 1,
+  "residue_graph_exclusion": 2,
+  "pdb_rounding_distance_bound_nm": 0.00017320508075688773,
+  "sources": {
+    "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_700/1xq8_cg.pdb": "4e0049af4e7955768a92393301078e73a8f6ed5ffc8a609cdb83d00e8c04fbf1",
+    "/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/Monomer/alhx_700/toppar/1xq8_cg.itp": "17dfee3fdcaff875fb70264cdc7b1d8f46701d277adbf65d948bad9888892c7d",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/processors/apply_rubber_band.py": "981a9c22c0f45e945d5f99fb8f3876bec1f84038a899a1bc1254beababb24ac9",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/graph_utils.py": "902d7c01b034359ea1d9c79352275998c89c2cb5dc82338a70a3fd9b9fbc8462",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/selectors.py": "1722f56ddc8e9ae700691af5796709da832d3b72da260709553ffc888331c55c",
+    "/home/jychen/anaconda3/bin/martinize2": "e1d8803ed5ad4f671ae320fc2c099855fe4b0155937b27a7a1a73c97431b04cf",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/data/force_fields/martini3IDP/aminoacids.ff": "c182fb53ca8b00b1b5dab470989f965faa54a2bb71b1c8f0f64d3a6527fffcdc",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/data/force_fields/martini3IDP/general.ff": "9fa63da3e647cfdfeac7d522b53006c5dab3708c2bf2dd6bca5a67c7547a1ebf",
+    "/home/jychen/anaconda3/lib/python3.9/site-packages/vermouth/data/force_fields/martini3IDP/modifications.ff": "ff0599910072de52178351192dde598f0c834099d87f2856473a4f2e4a37acb1"
+  },
+  "validation": {
+    "reference_cutoff_nm": 0.85,
+    "itp_count": 227,
+    "rebuilt_count": 227,
+    "missing_pairs": [],
+    "extra_pairs": [],
+    "max_equilibrium_length_error_nm": 9.999999999998899e-05,
+    "pair_identity_passed": true
+  },
+  "cutoffs_nm": [
+    0.8,
+    0.85,
+    0.9
+  ],
+  "figure_size_mm": [
+    200,
+    175
+  ]
+}

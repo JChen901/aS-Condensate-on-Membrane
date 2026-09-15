@@ -1,0 +1,66 @@
+{
+  "conditions": [
+    700,
+    800,
+    1000
+  ],
+  "start_ps": 1500000,
+  "end_ps": 3000000,
+  "dt_ps": 1000,
+  "expected_frames": 1501,
+  "selection": "name BB",
+  "mdanalysis_version": "2.9.0",
+  "numpy_version": "2.2.3",
+  "inputs": {
+    "Monomer/alhx_700/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1760704703133743023
+    },
+    "Monomer/alhx_700/tj_pbc.xtc": {
+      "bytes": 2914241952,
+      "mtime_ns": 1761014398023183971
+    },
+    "Monomer/alhx_800/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1788788928540670914
+    },
+    "Monomer/alhx_800/traj_pbc.xtc": {
+      "bytes": 874647104,
+      "mtime_ns": 1788787940320776909
+    },
+    "Monomer/alhx_1000/step5_production.tpr": {
+      "bytes": 1793524,
+      "mtime_ns": 1788789038986930456
+    },
+    "Monomer/alhx_1000/traj_pbc.xtc": {
+      "bytes": 874842088,
+      "mtime_ns": 1788787964333246871
+    }
+  },
+  "method": "GROMACS rmsf -res -fit separately for each segment; fit and RMSF use only that segment BB beads, against the corresponding coordinates in each run TPR; fluctuations about fitted segment trajectory mean",
+  "segments": [
+    {
+      "name": "helix1",
+      "start_residue": 1,
+      "end_residue": 37
+    },
+    {
+      "name": "linker",
+      "start_residue": 38,
+      "end_residue": 44
+    },
+    {
+      "name": "helix2",
+      "start_residue": 45,
+      "end_residue": 95
+    },
+    {
+      "name": "tail",
+      "start_residue": 96,
+      "end_residue": 140
+    }
+  ],
+  "segment_basis": "ITP helices 3\u201337 and 45\u201392; annotated IDR 96\u2013140; include terminal caps, separate linker 38\u201344",
+  "reference": "Each run step5_production.tpr, not an average structure",
+  "gromacs_version": "                   :-) GROMACS - gmx, 2022.5-plumed_2.8.3 (-:\n\nExecutable:   /usr/local/gromacs-plumed/bin/gmx\nData prefix:  /usr/local/gromacs-plumed\nWorking dir:  /data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP\nCommand line:\n  gmx --version\n\nGROMACS version:    2022.5-plumed_2.8.3\nPrecision:          mixed\nMemory model:       64 bit\nMPI library:        thread_mpi\nOpenMP support:     enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:        CUDA\nSIMD instructions:  AVX_512\nCPU FFT library:    fftw-3.3.8-sse2-avx-avx2-avx2_128-avx512\nGPU FFT library:    cuFFT\nRDTSCP usage:       enabled\nTNG support:        enabled\nHwloc support:      disabled\nTracing support:    disabled\nC compiler:         /usr/bin/cc GNU 11.4.0\nC compiler flags:   -mavx512f -mfma -mavx512vl -mavx512dq -mavx512bw -Wno-missing-field-initializers -fexcess-precision=fast -funroll-all-loops -O3 -DNDEBUG\nC++ compiler:       /usr/bin/c++ GNU 11.4.0\nC++ compiler flags: -mavx512f -mfma -mavx512vl -mavx512dq -mavx512bw -Wno-missing-field-initializers -fexcess-precision=fast -funroll-all-loops -fopenmp -O3 -DNDEBUG\nCUDA compiler:      /usr/local/cuda-11.8/bin/nvcc nvcc: NVIDIA (R) Cuda compiler driver;Copyright (c) 2005-2022 NVIDIA Corporation;Built on Wed_Sep_21_10:33:58_PDT_2022;Cuda compilation tools, release 11.8, V11.8.89;Build cuda_11.8.r11.8/compiler.31833905_0\nCUDA compiler flags:-std=c++17;--generate-code=arch=compute_35,code=sm_35;--generate-code=arch=compute_37,code=sm_37;--generate-code=arch=compute_50,code=sm_50;--generate-code=arch=compute_52,code=sm_52;--generate-code=arch=compute_60,code=sm_60;--generate-code=arch=compute_61,code=sm_61;--generate-code=arch=compute_70,code=sm_70;--generate-code=arch=compute_75,code=sm_75;--generate-code=arch=compute_80,code=sm_80;--generate-code=arch=compute_86,code=sm_86;--generate-code=arch=compute_89,code=sm_89;--generate-code=arch=compute_90,code=sm_90;-Wno-deprecated-gpu-targets;--generate-code=arch=compute_53,code=sm_53;--generate-code=arch=compute_80,code=sm_80;-use_fast_math;-D_FORCE_INLINES;-mavx512f -mfma -mavx512vl -mavx512dq -mavx512bw -Wno-missing-field-initializers -fexcess-precision=fast -funroll-all-loops -fopenmp -O3 -DNDEBUG\nCUDA driver:        12.80\nCUDA runtime:       N/A\n\n"
+}

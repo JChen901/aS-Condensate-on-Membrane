@@ -1,0 +1,3 @@
+system,trajectory,n_total_frames,start_frame,start_time_ps,last_time_ps,n_data_points,mean_n,std_n
+alhx_800,/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_800/TR_mdvwhole/clus_centered.xtc,1501,0,0.0,1500000.0,75050,11.098147901399066,3.4735991208093124
+alhx_800,/data/jychen/MD_projects/curvature_phase/Alpha-Synuclein/martini3001/Martini_alhx/mdrun/M3IDP/W_cluster/alhx_800_re1/TR_mdvwhole/clus_centered.xtc,1717,216,216000.0,1716000.0,75050,10.725303131245836,2.847510121663038
